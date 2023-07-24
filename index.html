@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="h1.jpg" type="image/x-icon" />
+    <title>Hackerman</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.gif" alt="" id="logo" />
+      </div>
+      <div class="intro">
+        <h1 id="element">hackit.com</h1>
+        <p class="innv">Welcome to World of Hacking.</p>
+        <p class="innv">You can perform hack on anyone.</p>
+        <p class="innv">Just enter Mobile Number & Name .....</p>
+      </div>
+    </header>
+
+    <section>
+      <div class="img">
+        <img src="ok.gif" alt="" id="img1" />
+        <input type="number" placeholder="Enter Mobile Number" required />
+        <input type="text" placeholder="Enter Victims name:" required />
+        <button type="submit" id="startButton">Hack victim</button>
+        <p id="para">*Click on the above button to execute the hack !!</p>
+      </div>
+    </section>
+
+    <aside>
+      <div id="sidebar"></div>
+      <div id="sidebar1"></div>
+    </aside>
+
+    <nav>
+      <div class="navbar">
+        <img src="load.gif" alt="" id="img2" />
+      </div>
+    </nav>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Hackit.Com",
+          "Hackit.Com.",
+          "Hackit.Com..",
+          "Hackit.Com...",
+          "Hackit.Com....",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+    <script src="/65_exercise_4.js"></script>
+  </body>
+</html>

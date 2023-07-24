@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    /* font-size: 25px; */
+    color: rgb(21, 213, 21);
+    /* background: black */
+    font-family: 'Ysabeau SC', sans-serif;
+    background: url(ok2.gif);
+}
+
+#img1 {
+    position: absolute;
+    width: 40vw;
+    height: 70vh;
+    top: 28%;
+    left: 30%;
+    border: 2px solid green;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 10px rgba(9, 232, 9, 0.171);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.intro {
+    background-color: rgba(255, 0, 0, 0.075);
+    color: green;
+    width: 40rem;
+    height: 15rem;
+    border: 2px solid green;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 50px 10px rgba(9, 232, 9, 0.171);
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+    text-shadow: 2px 0px 10px #03fb0f58;
+    padding-bottom: 5px;
+}
+
+.innv {
+    padding: 1px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 2px 0px 10px #03fb0f58;
+    width: 39rem;
+    height: 30px;
+    color: rgb(21, 213, 21);
+    background-color: black;
+    position: relative;
+}
+
+#para {
+    position: relative;
+    width: 500px;
+    /* background-color: #00000038; */
+    color: red;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 5px;
+    font-weight: 900;
+    /* text-shadow: 20px 20px 10px #00000058; */
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+}
+
+input:hover {
+    box-shadow: 0px 0px 50px 10px rgba(232, 9, 9, 0.396);
+}
+
+button {
+    position: relative;
+    width: 110px;
+    border-radius: 10px;
+    color: green;
+    background-color: black;
+    height: 40px;
+    margin: 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+button:hover {
+    box-shadow: 0px 0px 30px 10px rgba(232, 9, 9, 0.6);
+}
+
+#sidebar {
+    height: 75vh;
+    width: 25vw;
+    border: 2px solid green;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 9rem;
+    text-align: center;
+}
+
+#sidebar1 {
+    height: 75vh;
+    width: 25vw;
+    border: 2px solid green;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 9rem;
+    right: 0px;
+    text-align: center;
+}
+
+#img2 {
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 30px 5px rgba(65, 232, 9, 0.221);
+}
+
+#logo {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
