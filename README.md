@@ -1,5 +1,5 @@
 # Hackerman-Prank-website
-Hackerman Website by which you just Prank your friend by entering fake Phone nUMBER AND email id & it will display you some hacking Commands 
+Hackerman Website by which you can just Prank your friend by entering fake Phone no. and email id & it will display you some hacking Commands 
 & hack performing steps which are all fake.
 You can also try this with your non technical background friend.
 
